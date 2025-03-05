@@ -1,0 +1,45 @@
+{
+  "question": "\\( x^2 + y^2 = r^2 \\) represents which shape?",
+  "answers": [
+    {
+      "text": "A Circle",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "This is the equation of a circle centered at the origin.",
+        "chosenFeedback": "Correct! This is the equation of a circle.",
+        "notChosenFeedback": "Try again!"
+      }
+    },
+    {
+      "text": "A Square",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "A square does not have this equation.",
+        "chosenFeedback": "Incorrect! A square has a different equation.",
+        "notChosenFeedback": "Try another answer."
+      }
+    },
+    {
+      "text": "A Triangle",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "This equation does not represent a triangle.",
+        "chosenFeedback": "Incorrect! This is not a triangle equation.",
+        "notChosenFeedback": "Try another answer."
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": "Review the equation and try again!"
+    }
+  ],
+  "behavior": {
+    "singleAnswer": true,
+    "showSolutionsRequiresInput": true,
+    "enableRetry": true,
+    "autoCheck": false
+  }
+}
